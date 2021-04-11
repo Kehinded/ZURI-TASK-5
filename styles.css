@@ -183,6 +183,10 @@ select{
 }
 /* media query for 900px */
 @media (max-width:56.25em){
+     .section__content{
+        width: 85vw;
+      transform: translateY(40vh);
+    }
     .section__reg-content{
         width: 85vw;
     }
