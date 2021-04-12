@@ -10,7 +10,7 @@ html{
 }
 body{
     box-sizing: border-box;
-    background-color: #f7f7f7;
+    background-color: #f8f8f8;
     width: 100%;
     height: 100%;
     position: relative;
@@ -19,7 +19,7 @@ body{
     font-family: Nunito, sans-serif;
   }
   header{
-    background-color: white;
+    background-color: #ffffff;
     width: 100vw;
     height: 8rem;
     z-index: 20;
@@ -42,19 +42,21 @@ body{
     width: 10rem;
     height: 2.5rem;
   }
+  .fas{
+      color: #78726f;
+  }
   .item-left{
       float: left;
   }
   .item-right{
       float: right;
-      display: inline-block;
       margin-left: 2.5rem;
   }
   .header__link:link,
   .header__link:visited{
   text-decoration: none;
   font-size: 1.5rem;
-  background-color: rgb(235, 10, 10);
+  background-color: #E7332B;
   padding: 1rem 2rem;
   text-transform: uppercase;
   color: white;
@@ -64,14 +66,14 @@ body{
 
   .header__link:active,
   .header__link:hover{
-      background-color: rgba(32, 7, 92, 0.932);
+      background-color: #0c3252;
   }
   .section__content{
       width: 100%;
       height: 100%;
       /* background-color: red; */
       width: 65vw;
-    transform: translateY(15vh);
+    transform: translateY(15vch);
     margin: 0 auto;
   }
 .content__heading{
@@ -80,7 +82,7 @@ body{
 }
 .section__paragraph{
   font-size: 1.4rem;
-  color: rgba(0,0,0, .8);
+  color: #5c595c;
 }
 .section__reg-content{
     width: 60vw;
@@ -90,26 +92,25 @@ body{
 }
 .reg__heading1{
     text-align: center;
+    color: #5c595c;
 }
 .reg__heading2{
     text-align: center;
     font-size: 1.3rem;
     margin-top: .5rem;
-    color: #434894;
 }
 .reg__heading3{
     text-align: left;
     font-size: 1.5rem;
     margin-top: 1rem;
-    color: #434894;
 }
 .reg__form{
     margin-top: 2rem;
     width: 100%;
     height: 90rem;
     padding: 2rem 3rem;
-    background-color: white;
-    box-shadow: 0 1.2rem 1.4rem rgba(0,0,0, .3);
+    background-color: #ffffff;
+    box-shadow: 0 1.2rrgb(7, 5, 5)4rem rgba(0,0,0, .3);
     border-radius: 1rem;
 }
 .reg__form::after{
@@ -137,7 +138,7 @@ body{
     border: 1px solid rgba(0,0,0, .3);
 }
 .form__input:focus{
-    outline-color: rgb(122, 108, 245);
+    outline-color: #d2d9fd;
 }
 select{
     color: #999;
@@ -163,8 +164,8 @@ select{
 .form__reg1{
     margin-right: 2rem;
     text-transform: capitalize;
-    color: #999;
     font-size: 1.3rem;
+    color: #999;
 }
 .form__reg1:hover{
     color: black;
@@ -173,7 +174,7 @@ select{
 .form__reg2:visited{
     text-decoration: none;
     font-size: 1.5rem;
-    background-color: rgb(235, 10, 10);
+    background-color: #E7332B;
     padding: 1rem 1.5rem;
     text-transform: uppercase;
     color: white;
@@ -182,7 +183,7 @@ select{
 }
 .form__reg2:active,
 .form__reg2:hover{
-    background-color: rgba(32, 7, 92, 0.932);
+    background-color: #0c3252;
 }
 /* media query for 900px */
 @media (max-width:56.25em){
@@ -206,11 +207,14 @@ select{
     }
     .item-right{
         float: right;
-        display: inline-block;
+        /* display: inline-block; */
         margin-left: 1rem;
     }
     .header__nav{
         margin: 3rem 1rem;
+    }
+    .content__heading{
+        font-size: 3.5rem;
     }
     .fas{
       opacity: 0;
@@ -248,3 +252,53 @@ select{
     }
 }
 /* end of media query for 600px */
+/* media query for 300px */
+@media (max-width: 18.75em){
+    .item-left{
+        /* opacity: 0;
+        visibility: hidden; */
+        margin-left: -.3rem;
+    }
+    .content__heading{
+    font-size: 3.5rem;
+}
+    .item-right{
+        float: right;
+        /* display: inline-block; */
+        margin-left: 2.5rem;
+        transform: translateY(-2rem);
+        z-index: 25;
+    }
+    .reg__form{
+    margin-top: 2rem;
+    width: 100%;
+    height: 90rem;
+    padding: 2rem .2rem;
+    background-color: #ffffff;
+    box-shadow: 0 1.2rrgb(7, 5, 5)4rem rgba(0,0,0, .3);
+    border-radius: 1rem;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+     .form__group{
+        float: left;
+        width: calc((80% - 1rem) / 2);
+        margin-left: -1rem;
+        margin-top: 2rem;
+        
+    }
+    .form__group-1{
+        width: calc((90% - 1rem) / 2);
+        margin-right: 1rem;
+        margin-top: 2rem;
+        float: none;
+        padding: 1rem 1rem;
+        align-self: center;
+    }
+    .form__group-2{
+       justify-self: center;
+       margin-left: -1rem;
+    }
+}
+/* end of media query for 300px */
