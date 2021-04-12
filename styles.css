@@ -33,6 +33,7 @@ body{
   .header__nav{
       margin: 3rem 4rem;
   }
+
   .header__nav::after{
       content: "";
       display: table;
