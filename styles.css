@@ -1,4 +1,4 @@
-*,
+**,
 *::after,
 *::before{
     margin: 0;
@@ -69,7 +69,7 @@ body{
       height: 100%;
       /* background-color: red; */
       width: 65vw;
-    transform: translateY(50vh);
+    transform: translateY(15vh);
     margin: 0 auto;
   }
 .content__heading{
@@ -183,9 +183,9 @@ select{
 }
 /* media query for 900px */
 @media (max-width:56.25em){
-     .section__content{
+    .section__content{
         width: 85vw;
-      transform: translateY(40vh);
+      transform: translateY(15vh);
     }
     .section__reg-content{
         width: 85vw;
