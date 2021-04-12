@@ -74,7 +74,7 @@ body{
       height: 100%;
       /* background-color: red; */
       width: 65vw;
-    transform: translateY(15vch);
+    transform: translateY(15vh);
     margin: 0 auto;
   }
 .content__heading{
