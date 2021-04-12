@@ -164,6 +164,7 @@ select{
     margin-right: 2rem;
     text-transform: capitalize;
     color: #999;
+    font-size: 1.3rem;
 }
 .form__reg1:hover{
     color: black;
