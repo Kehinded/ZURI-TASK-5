@@ -1,4 +1,4 @@
-**,
+*,
 *::after,
 *::before{
     margin: 0;
@@ -234,3 +234,4 @@ select{
     }
 }
 /* end of media query for 600px */
+
