@@ -16,6 +16,7 @@ body{
     position: relative;
     font-size: 1.5rem;
     overflow-x: hidden;
+    font-family: Nunito, sans-serif;
   }
   header{
     background-color: white;
@@ -73,7 +74,7 @@ body{
     margin: 0 auto;
   }
 .content__heading{
-    font-size: 5rem;
+    font-size: 4.5rem;
     color: rgba(0,0,0, .6);
 }
 .section__paragraph{
