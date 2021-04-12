@@ -1,150 +1,361 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>landing page</title>
-    <!-- css link -->
-    <link rel="stylesheet" href="./styles.css">
-    <!-- icon link -->
-    <link
-      rel="stylesheet"
-      href="https://use.fontawesome.com/releases/v5.13.0/css/all.css"
-      integrity="sha384-Bfad6CLCknfcloXFOyFnlgtENryhrpZCe29RTifKEixXQZ38WheV+i/6YWSzkz3V"
-      crossorigin="anonymous"
-    />
-</head>
-<body>
-    <!-- header part -->
-    <header class="header">
-        <nav class="header__nav">
-            <div class="header__list">
-                <div class="header__item item-left"><img src="./Image/zuri-logo.png" alt="zuri-img" class="zuri-logo"></div>
-                <div class="header__item item-right"><i class="fas fa-expand-arrows-alt fa-3x"></i></d>
-                <div class="header__item item-right">
-                    <a href="http://127.0.0.1:5500/registration.html" class="header__link">register</a>
-                </d>
-                <div class="header__item item-right">
-                    <a href="" class="header__link">login</a>
-                </d>
-            </div>
-        </nav>
-    </header>
-    <!-- end of header -->
-    <!-- section content -->
-    <section class="section__content">
-        <h1 class="content__heading">Welcome to Zuri Training's landing page</h1>
-        <p class="section__paragraph">Login / Register to get started</p>
-    </section>
-    <!-- end of section content -->
-    <!-- section form -->
-    <section class="section__reg-content">
-        <h1 class="reg__heading1">CREATE YOUR ACCOUNT</h1>
-        <h2 class="reg__heading2">ALL FIELDS ARE REQUIRED</h2>
-        <h3 class="reg__heading3">Note: This workspace requires you to register with the same email address and username as you have on the slack workspace</h3>
-        <!-- form part -->
-        <form action="" class="reg__form">
-            <div class="form__group">
-                <label for="fisrt-name" class="form__label">first name</label>
-                <input type="text" name="fisrt-name" class="form__input">
-            </div>
-            <div class="form__group">
-                <label for="last-name" class="form__label">last name</label>
-                <input type="text" name="last-name" class="form__input">
-            </div>
-            <div class="form__group">
-                <label for="middle-name" class="form__label">middle name</label>
-                <input type="text" name="middle-name" class="form__input">
-            </div>
-            <div class="form__group">
-                <label for="user-name" class="form__label">user name</label>
-                <input type="text" name="user-name" class="form__input">
-            </div>
-            <div class="form__group">
-                <label for="gender" class="form__label">gender</label>
-                <select class="form__input">
-                    <option value="opt">Select a gender</option>
-                    <option value="opt">Female</option>
-                    <option value="opt">Male</option>
-                    <option value="opt">Prefer not to say</option>
-                </select>
-            </div>
-            <div class="form__group">
-                <label for="age" class="form__label">age</label>
-                <input type="text" name="age" class="form__input">
-            </div>
-            <div class="form__group-1">
-                <label for="gender" class="form__label">experience level</label>
-                <select class="form__input">
-                    <option value="opt">Select experience level</option>
-                    <option value="opt">None</option>
-                    <option value="opt">Beginner</option>
-                    <option value="opt">Mid-Level</option>
-                    <option value="opt">Expert</option>
-                </select>
-            </div>
-            <div class="form__group-1">
-                <label for="gender" class="form__label">track</label>
-                <select class="form__input">
-                    <option value="opt">Select a track</option>
-                    <option value="opt">Back end</option>
-                    <option value="opt">Front end</option>
-                    <option value="opt">Design</option>
-                    <option value="opt">Mobile</option>
-                </select>
-            </div>
-            <div class="form__group-1">
-                <label for="gender" class="form__label">education</label>
-                <select class="form__input">
-                    <option value="opt">Select one</option>
-                    <option value="opt">None</option>
-                    <option value="opt">Grade School</option>
-                    <option value="opt">High School</option>
-                    <option value="opt">Bachelor's Degree</option>
-                    <option value="opt">Master's Degree</option>
-                    <option value="opt">Post Graduate Degree</option>
-                </select>
-            </div>
-            <div class="form__group-1">
-                <label for="gender" class="form__label">employment status</label>
-                <select class="form__input">
-                    <option value="opt">Select employment status</option>
-                    <option value="opt">Unemployed</option>
-                    <option value="opt">Employed</option>
-                    <option value="opt">Self Employed</option>
-                </select>
-            </div>
-            <div class="form__group-2">
-                <label for="email" class="form__label">email address</label>
-                <input type="email" name="email" class="form__input">
-            </div>
-            <div class="form__group-2">
-                <label for="email" class="form__label">password</label>
-                <input type="password" name="email" class="form__input">
-            </div>
-            <div class="form__group-2">
-                <label for="email" class="form__label">confirm password</label>
-                <input type="password" name="email" class="form__input">
-            </div>
-            <div class="form__group-2">
-                <label for="email" class="form__label">How did you hear about us</label>
-                <select class="form__input">
-                    <option value="opt">Select one</option>
-                    <option value="opt">None</option>
-                    <option value="opt">Facebook</option>
-                    <option value="opt">Twitter</option>
-                    <option value="opt">Linkedln</option>
-                    <option value="opt">Whatsapp</option>
-                    <option value="opt">Don Jazzy</option>
-                </select>
-            </div>
-            <div class="end__form">
-                <a href="#" class="form__reg1">already register?</a>
-                <a href="#" class="form__reg2">register</a>
-            </div>
-        </form>
-        <!-- end of form part -->
-    </section>
-</body>
-</html>
+* {
+  box-sizing: border-box;
+}
+body {
+  margin: 0;
+  padding: 0;
+  font-family: Nunito, sans-serif;
+  background-image: url("./photo 1.jpeg");
+  background-repeat: no-repeat;
+  /* background-size: cover; */
+  opacity: 0.9;
+  background-attachment: fixed;
+  background-position: 90% 50%;
+  background-color: whitesmoke;
+}
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: white;
+  color: black;
+  padding: 2rem;
+  margin-top: -7%;
+}
+.navbar-title {
+  font-size: 1.5rem;
+  margin: 0.5rem;
+}
+.navbar-links ul {
+  margin: 0;
+  padding: 3rem;
+  display: flex;
+}
+.navbar-links li {
+  list-style: none;
+}
+.navbar-links li a {
+  text-decoration: none;
+  color: black;
+  padding: 1rem;
+}
+.navbar-links li a:hover {
+  background-color: #555;
+}
+.navbar-links li a .register:hover,
+.navbar-links li a .login:hover {
+  background-color: #555;
+}
+.register,
+.login {
+  background-color: red;
+  border-radius: 25%;
+  height: 40px;
+  margin: 2rem;
+  cursor: pointer;
+}
+span {
+  color: red;
+  font-size: 63px;
+  border-radius: 100%;
+}
+#home {
+  color: red;
+}
+
+.section__reg-content {
+  width: 60vw;
+  transform: translateY(25vh);
+  margin: 0 auto;
+  padding-bottom: 3rem;
+}
+.reg__heading1 {
+  text-align: center;
+  color: #5c595c;
+}
+.reg__heading2 {
+  text-align: center;
+  font-size: 1.3rem;
+  margin-top: 0.5rem;
+}
+.reg__heading3 {
+  text-align: left;
+  font-size: 1.5rem;
+  margin-top: 1rem;
+}
+.reg__form {
+  margin-top: 2rem;
+  width: 100%;
+  height: 90rem;
+  padding: 2rem 3rem;
+  background-color: #ffffff;
+  box-shadow: 0 1.2rrgb (7, 5, 5) 4rem rgba(0, 0, 0, 0.3);
+  border-radius: 1rem;
+}
+.reg__form::after {
+  content: "";
+  display: none;
+  clear: both;
+}
+.form__group {
+  float: left;
+  width: calc((95% - 2rem) / 2);
+  margin-left: 2rem;
+  margin-top: 2rem;
+}
+.form__label {
+  display: block;
+  font-size: 1.5rem;
+  color: #777;
+  text-transform: capitalize;
+  margin-bottom: 0.5rem;
+}
+.form__input {
+  width: 100%;
+  padding: 1.3rem;
+  border-radius: 0.5rem;
+  border: 1px solid rgba(0, 0, 0, 0.3);
+}
+.form__input:focus {
+  outline-color: #d2d9fd;
+}
+select {
+  color: #999;
+}
+.form__group-1 {
+  width: calc((95% - 2rem) / 2);
+  margin-right: 2rem;
+  margin-top: 2rem;
+  float: right;
+}
+.form__group-2 {
+  width: 95%;
+  margin-left: 2rem;
+  margin-top: 2rem;
+  float: left;
+}
+.end__form {
+  float: right;
+  margin-top: 2.5rem;
+  margin-right: 2rem;
+}
+
+.form__reg1 {
+  margin-right: 2rem;
+  text-transform: capitalize;
+  font-size: 1.3rem;
+  color: #999;
+}
+.form__reg1:hover {
+  color: black;
+}
+.form__reg2:link,
+.form__reg2:visited {
+  text-decoration: none;
+  font-size: 1.5rem;
+  background-color: #e7332b;
+  padding: 1rem 1.5rem;
+  text-transform: uppercase;
+  color: white;
+  border-radius: 3rem;
+  transition: all 0.5s;
+}
+.form__reg2:active,
+.form__reg2:hover {
+  background-color: #0c3252;
+}
+/* media query for 900px */
+@media (max-width: 56.25em) {
+  .section__content {
+    width: 85vw;
+    transform: translateY(15vh);
+  }
+  .section__paragraph {
+    margin-top: 1rem;
+  }
+  .section__reg-content {
+    width: 85vw;
+    transform: translateY(20vh);
+  }
+}
+/* end of media query for 900px */
+/* media query for 600px */
+@media (max-width: 37.5em) {
+  body {
+    font-size: 55%;
+  }
+  .item-right {
+    float: right;
+    /* display: inline-block; */
+    margin-left: 1rem;
+  }
+  .header__nav {
+    margin: 3rem 1rem;
+  }
+  .content__heading {
+    font-size: 3.5rem;
+  }
+  .fas {
+    opacity: 0;
+    visibility: hidden;
+  }
+  .reg__form {
+    margin-top: 2rem;
+    padding: 2rem 0.5rem;
+  }
+  .section__content {
+    width: 85vw;
+    transform: translateY(15vh);
+  }
+  .section__paragraph {
+    margin-top: 1rem;
+  }
+  .section__reg-content {
+    width: 95vw;
+    transform: translateY(20vh);
+  }
+  .reg__heading1 {
+    font-size: 2rem;
+  }
+  .form__group {
+    float: left;
+    width: calc((90% - 2rem) / 2);
+    margin-left: 2rem;
+    margin-top: 2rem;
+  }
+  .form__group-1 {
+    width: calc((90% - 2rem) / 2);
+    margin-right: 2rem;
+    margin-top: 2rem;
+    float: right;
+  }
+}
+/* end of media query for 600px */
+/* media query for 300px */
+@media (max-width: 18.75em) {
+  .item-left {
+    /* opacity: 0;
+        visibility: hidden; */
+    margin-left: -0.3rem;
+  }
+  .content__heading {
+    font-size: 3.5rem;
+  }
+  .item-right {
+    float: right;
+    /* display: inline-block; */
+    margin-left: 2.5rem;
+    transform: translateY(-2rem);
+    z-index: 25;
+  }
+  .reg__form {
+    margin-top: 2rem;
+    width: 100%;
+    height: 90rem;
+    padding: 2rem 0.2rem;
+    background-color: #ffffff;
+    box-shadow: 0 1.2rrgb (7, 5, 5) 4rem rgba(0, 0, 0, 0.3);
+    border-radius: 1rem;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+  }
+  .form__group {
+    float: left;
+    width: calc((80% - 1rem) / 2);
+    margin-left: -1rem;
+    margin-top: 2rem;
+  }
+  .form__group-1 {
+    width: calc((90% - 1rem) / 2);
+    margin-right: 1rem;
+    margin-top: 2rem;
+    float: none;
+    padding: 1rem 1rem;
+    align-self: center;
+  }
+  .form__group-2 {
+    justify-self: center;
+    margin-left: -1rem;
+  }
+}
+/* end of media query for 300px */
+.fa {
+  padding: 20px;
+  font-size: 30px;
+  width: 50px;
+  text-align: center;
+  text-decoration: none;
+  margin: 5px 2px;
+}
+
+.fa:hover {
+  opacity: 0.7;
+}
+
+.fa-facebook {
+  background: #3b5998;
+  color: white;
+}
+
+.fa-twitter {
+  background: #55acee;
+  color: white;
+}
+.fa-linkedin {
+  background: #007bb5;
+  color: white;
+}
+.fa-instagram {
+  background: #125688;
+  color: white;
+}
+.zuri-training {
+  font-size: 4rem;
+  font-weight: 24%;
+  margin-top: -74px;
+  padding-left: 2rem;
+}
+.powered-by {
+  display: flex;
+  justify-content: space-between;
+  align-content: center;
+  padding: 2rem;
+}
+.ingressive-image {
+  margin-top: -61px;
+}
+.ingressive-image p {
+  font-size: 2rem;
+}
+.yzuri {
+  display: flex;
+  justify-content: flex-start;
+  align-content: flex-start;
+  font-size: 3rem;
+}
+footer {
+  display: flex;
+  justify-content: space-between;
+  align-content: center;
+  text-decoration: none;
+  list-style: none;
+}
+.copyright {
+  justify-content: center;
+  align-content: center;
+}
+.quick-links {
+  display: flex;
+  flex-direction: column;
+  text-decoration: none;
+  list-style: none;
+}
+.photo-two {
+  display: flex;
+  margin-top: 5%;
+  /* margin-right: 51%;  */
+  flex-direction: column;
+  justify-content: left;
+  align-content: flex-start;
+}
