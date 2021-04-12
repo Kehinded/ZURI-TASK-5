@@ -59,6 +59,7 @@ body{
   text-transform: uppercase;
   color: white;
   border-radius: 3rem;
+  transition: all .5s;
   }
 
   .header__link:active,
@@ -82,7 +83,7 @@ body{
   color: rgba(0,0,0, .8);
 }
 .section__reg-content{
-    width: 65vw;
+    width: 60vw;
     transform: translateY(25vh);
     margin: 0 auto;
     padding-bottom: 3rem;
@@ -176,6 +177,7 @@ select{
     text-transform: uppercase;
     color: white;
     border-radius: 3rem;
+    transition: all .5s;
 }
 .form__reg2:active,
 .form__reg2:hover{
